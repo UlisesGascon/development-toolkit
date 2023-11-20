@@ -4,13 +4,19 @@ Personal Docker image used for development
 
 ### Stack
 
-- Ubuntu 20
-- .NET
-- NodeJS
-- Git and Git LFS
-- Docker
-- Curl
-- net-tools
+- Ubuntu 20.04
+- .NET 7.0.14
+- NodeJS 18.17.1
+- Git 2.25.1 and Git LFS 3.4.0
+- Docker 24.0.5
+- Curl 7.68.0
+- net-tools 1.60
+- ca-certificates 20230311
+- gnupg 2.2.19
+- libcurl4-openssl-dev 7.68.0
+- gcc 4:9.3.0
+- g++ 4:9.3.0
+- make 4.2.1
 
 ### Usage
 
