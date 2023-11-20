@@ -7,6 +7,8 @@ ARG BUILD_DATE
 ARG VCS_REF
 ARG BUILD_VERSION
 ARG DEBIAN_FRONTEND=noninteractive
+# https://github.com/dotnet/core/issues/2186#issuecomment-671105420
+ARG DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 
 LABEL org.label-schema.schema-version="1.0"
 LABEL org.label-schema.name="ulisesgascon/development-toolkit"
