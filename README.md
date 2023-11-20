@@ -15,5 +15,5 @@ Personal Docker image used for development
 ### Usage
 
 ```bash
-docker run -it  ulisesgascon/development-toolkit:latest  bash
+docker run -it ulisesgascon/development-toolkit:latest bash
 ```

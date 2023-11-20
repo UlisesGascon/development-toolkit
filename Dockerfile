@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y curl git net-tools docker.io
 
 # Install Git LFS
 RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
-RUN apt-get install git-lfs
+RUN apt-get install -y git-lfs
 
 # Install Node.js
 RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
