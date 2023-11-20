@@ -10,6 +10,7 @@ Personal Docker image used for development
 - Git and Git LFS
 - Docker
 - Curl
+- net-tools
 
 ### Usage
 

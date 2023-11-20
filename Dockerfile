@@ -2,7 +2,7 @@
 FROM ubuntu:20.04
 
 # Install curl (required to install Node.js and .NET SDK)
-RUN apt-get update && apt-get install -y curl git
+RUN apt-get update && apt-get install -y curl git net-tools
 
 # Install Git LFS
 RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
