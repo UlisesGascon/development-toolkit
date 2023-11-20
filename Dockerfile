@@ -17,5 +17,3 @@ RUN curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel C
 
 # Set the path to include .NET
 ENV PATH="$PATH:/usr/share/dotnet"
-
-WORKDIR /home
