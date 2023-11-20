@@ -6,6 +6,7 @@ LABEL maintainer="ulises@linux.com"
 ARG BUILD_DATE
 ARG VCS_REF
 ARG BUILD_VERSION
+ARG DEBIAN_FRONTEND=noninteractive
 
 LABEL org.label-schema.schema-version="1.0"
 LABEL org.label-schema.name="ulisesgascon/development-toolkit"
