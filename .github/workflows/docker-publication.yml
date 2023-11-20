@@ -35,7 +35,7 @@ jobs:
     - name: Build the Docker image
       env:
         RELEASE_VERSION: ${{ steps.vars.outputs.tag }}
-      run: docker build . --file Dockerfile --tag ulisesgascon/development-toolkit:$RELEASE_VERSION --tag ulisesgascon/development-toolkit:latest
+      run: docker build --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') --file Dockerfile --tag ulisesgascon/development-toolkit:$RELEASE_VERSION --tag ulisesgascon/development-toolkit:latest .
       
     - name: Docker Push
       run: docker push --all-tags ulisesgascon/development-toolkit
