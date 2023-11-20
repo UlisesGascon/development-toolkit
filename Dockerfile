@@ -1,6 +1,9 @@
 # Start from an Ubuntu image
 FROM ubuntu:20.04
 
+# Metadata
+LABEL maintainer="ulises@linux.com"
+
 # Install curl, git, net-tools and Docker
 RUN apt-get update && apt-get install -y curl git net-tools docker.io
 
