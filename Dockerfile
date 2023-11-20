@@ -4,6 +4,13 @@ FROM ubuntu:20.04
 LABEL maintainer="ulises@linux.com"
 
 ARG BUILD_DATE
+LABEL org.label-schema.schema-version="1.0"
+LABEL org.label-schema.name="ulisesgascon/development-toolkit"
+LABEL org.label-schema.description="Personal Docker image used for development"
+LABEL org.label-schema.url="https://github.com/UlisesGascon/dockerized-development-toolkit"
+LABEL org.label-schema.vcs-url="https://github.com/UlisesGascon/dockerized-development-toolkit"
+LABEL org.label-schema.vendor="Ulises Gascon"
+LABEL org.label-schema.docker.cmd="docker run -it ulisesgascon/development-toolkit:latest bash"
 LABEL org.label-schema.build-date=$BUILD_DATE
 
 # Install curl, git, net-tools and Docker
