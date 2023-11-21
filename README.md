@@ -17,6 +17,7 @@ Personal Docker image used for development
 - gcc 4:9.3.0
 - g++ 4:9.3.0
 - make 4.2.1
+- fastjar 2:0.98
 
 ### Usage
 
