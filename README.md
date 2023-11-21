@@ -1,4 +1,4 @@
-# dockerized-development-toolkit
+# development toolkit (Dockerized)
 
 Personal Docker image used for development
 
@@ -22,4 +22,8 @@ Personal Docker image used for development
 
 ```bash
 docker run -it ulisesgascon/development-toolkit:latest bash
+```
+
+```bash
+docker run -it ghcr.io/ulisesgascon/development-toolkit:latest bash
 ```
