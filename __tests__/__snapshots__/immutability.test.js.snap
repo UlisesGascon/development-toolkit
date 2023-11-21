@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Immutability Core Extended packages Curl version 1`] = `
+"curl 7.68.0 (x86_64-pc-linux-gnu) libcurl/7.68.0 OpenSSL/1.1.1f zlib/1.2.11 brotli/1.0.7 libidn2/2.2.0 libpsl/0.21.0 (+libidn2/2.2.0) libssh/0.9.3/openssl/zlib nghttp2/1.40.0 librtmp/2.3
+Release-Date: 2020-01-08
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp 
+Features: AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets
+"
+`;
+
+exports[`Immutability Core Extended packages Docker version 1`] = `
+"Docker version 24.0.5, build 24.0.5-0ubuntu1~20.04.1
+"
+`;
+
+exports[`Immutability Core Extended packages Git LFS version 1`] = `
+"git-lfs/3.4.0 (GitHub; linux amd64; go 1.20.6)
+"
+`;
+
+exports[`Immutability Core Extended packages Git version 1`] = `
+"git version 2.25.1
+"
+`;
+
+exports[`Immutability Core Extended packages fastjar: jar version 1`] = `
+"jar (fastjar) 0.98
+
+Copyright 1999, 2000, 2001  Bryan Burns
+Copyright 2006 Free Software Foundation
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+"
+`;
+
+exports[`Immutability Core Extended packages g++ version 1`] = `
+"g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+"
+`;
+
+exports[`Immutability Core Extended packages gcc version 1`] = `
+"gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+"
+`;
+
+exports[`Immutability Core Extended packages gnupg: gpg version 1`] = `
+"gpg (GnuPG) 2.2.19
+libgcrypt 1.8.5
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: /root/.gnupg
+Supported algorithms:
+Pubkey: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+Cipher: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+        CAMELLIA128, CAMELLIA192, CAMELLIA256
+Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+Compression: Uncompressed, ZIP, ZLIB, BZIP2
+"
+`;
+
+exports[`Immutability Core Extended packages libcurl4-openssl-dev version 1`] = `
+"libcurl 7.68.0
+"
+`;
+
+exports[`Immutability Core Extended packages make version 1`] = `
+"GNU Make 4.2.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+"
+`;
+
+exports[`Immutability Core Extended packages net-tools: netstat version 1`] = `
+"net-tools 2.10-alpha
+Fred Baumgarten, Alan Cox, Bernd Eckenfels, Phil Blundell, Tuan Hoang, Brian Micek and others
++NEW_ADDRT +RTF_IRTT +RTF_REJECT +FW_MASQUERADE +I18N +SELINUX
+AF: (inet) +UNIX +INET +INET6 +IPX +AX25 +NETROM +X25 +ATALK +ECONET +ROSE -BLUETOOTH
+HW:  +ETHER +ARC +SLIP +PPP +TUNNEL -TR +AX25 +NETROM +X25 +FR +ROSE +ASH +SIT +FDDI +HIPPI +HDLC/LAPB +EUI64 
+"
+`;
+
+exports[`Immutability Core Installed packages 1`] = `
+"Listing...
+adduser/now 3.118ubuntu2 all [installed,local]
+apt-transport-https/now 2.0.10 all [installed,local]
+apt/now 2.0.9 amd64 [installed,local]
+base-files/now 11ubuntu5.7 amd64 [installed,local]
+base-passwd/now 3.5.47 amd64 [installed,local]
+bash/now 5.0-6ubuntu1.2 amd64 [installed,local]
+binutils-common/now 2.34-6ubuntu1.6 amd64 [installed,local]
+binutils-x86-64-linux-gnu/now 2.34-6ubuntu1.6 amd64 [installed,local]
+binutils/now 2.34-6ubuntu1.6 amd64 [installed,local]
+bsdutils/now 1:2.34-0.1ubuntu9.4 amd64 [installed,local]
+bzip2/now 1.0.8-2 amd64 [installed,local]
+ca-certificates/now 20230311ubuntu0.20.04.1 all [installed,local]
+containerd/now 1.7.2-0ubuntu1~20.04.1 amd64 [installed,local]
+coreutils/now 8.30-3ubuntu2 amd64 [installed,local]
+cpp-9/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
+cpp/now 4:9.3.0-1ubuntu2 amd64 [installed,local]
+curl/now 7.68.0-1ubuntu2.20 amd64 [installed,local]
+dash/now 0.5.10.2-6 amd64 [installed,local]
+debconf/now 1.5.73 all [installed,local]
+debianutils/now 4.9.1 amd64 [installed,local]
+diffutils/now 1:3.7-3 amd64 [installed,local]
+dirmngr/now 2.2.19-3ubuntu2.2 amd64 [installed,local]
+docker.io/now 24.0.5-0ubuntu1~20.04.1 amd64 [installed,local]
+dpkg/now 1.19.7ubuntu3.2 amd64 [installed,local]
+e2fsprogs/now 1.45.5-2ubuntu1.1 amd64 [installed,local]
+fastjar/now 2:0.98-6build1 amd64 [installed,local]
+fdisk/now 2.34-0.1ubuntu9.4 amd64 [installed,local]
+findutils/now 4.7.0-1ubuntu1 amd64 [installed,local]
+g++-9/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
+g++/now 4:9.3.0-1ubuntu2 amd64 [installed,local]
+gcc-10-base/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+gcc-9-base/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
+gcc-9/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
+gcc/now 4:9.3.0-1ubuntu2 amd64 [installed,local]
+git-lfs/now 3.4.0 amd64 [installed,local]
+git-man/now 1:2.25.1-1ubuntu3.11 all [installed,local]
+git/now 1:2.25.1-1ubuntu3.11 amd64 [installed,local]
+gnupg-l10n/now 2.2.19-3ubuntu2.2 all [installed,local]
+gnupg-utils/now 2.2.19-3ubuntu2.2 amd64 [installed,local]
+gnupg/now 2.2.19-3ubuntu2.2 all [installed,local]
+gpg-agent/now 2.2.19-3ubuntu2.2 amd64 [installed,local]
+gpg-wks-client/now 2.2.19-3ubuntu2.2 amd64 [installed,local]
+gpg-wks-server/now 2.2.19-3ubuntu2.2 amd64 [installed,local]
+gpg/now 2.2.19-3ubuntu2.2 amd64 [installed,local]
+gpgconf/now 2.2.19-3ubuntu2.2 amd64 [installed,local]
+gpgsm/now 2.2.19-3ubuntu2.2 amd64 [installed,local]
+gpgv/now 2.2.19-3ubuntu2.2 amd64 [installed,local]
+grep/now 3.4-1 amd64 [installed,local]
+gzip/now 1.10-0ubuntu4.1 amd64 [installed,local]
+hostname/now 3.23 amd64 [installed,local]
+init-system-helpers/now 1.57 all [installed,local]
+iptables/now 1.8.4-3ubuntu2.1 amd64 [installed,local]
+libacl1/now 2.2.53-6 amd64 [installed,local]
+libapt-pkg6.0/now 2.0.9 amd64 [installed,local]
+libasan5/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
+libasn1-8-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
+libassuan0/now 2.5.3-7ubuntu2 amd64 [installed,local]
+libatomic1/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libattr1/now 1:2.4.48-5 amd64 [installed,local]
+libaudit-common/now 1:2.8.5-2ubuntu6 all [installed,local]
+libaudit1/now 1:2.8.5-2ubuntu6 amd64 [installed,local]
+libbinutils/now 2.34-6ubuntu1.6 amd64 [installed,local]
+libblkid1/now 2.34-0.1ubuntu9.4 amd64 [installed,local]
+libbrotli1/now 1.0.7-6ubuntu0.1 amd64 [installed,local]
+libbz2-1.0/now 1.0.8-2 amd64 [installed,local]
+libc-bin/now 2.31-0ubuntu9.12 amd64 [installed,local]
+libc-dev-bin/now 2.31-0ubuntu9.12 amd64 [installed,local]
+libc6-dev/now 2.31-0ubuntu9.12 amd64 [installed,local]
+libc6/now 2.31-0ubuntu9.12 amd64 [installed,local]
+libcap-ng0/now 0.7.9-2.1build1 amd64 [installed,local]
+libcc1-0/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libcom-err2/now 1.45.5-2ubuntu1.1 amd64 [installed,local]
+libcrypt-dev/now 1:4.4.10-10ubuntu4 amd64 [installed,local]
+libcrypt1/now 1:4.4.10-10ubuntu4 amd64 [installed,local]
+libctf-nobfd0/now 2.34-6ubuntu1.6 amd64 [installed,local]
+libctf0/now 2.34-6ubuntu1.6 amd64 [installed,local]
+libcurl3-gnutls/now 7.68.0-1ubuntu2.20 amd64 [installed,local]
+libcurl4-openssl-dev/now 7.68.0-1ubuntu2.20 amd64 [installed,local]
+libcurl4/now 7.68.0-1ubuntu2.20 amd64 [installed,local]
+libdb5.3/now 5.3.28+dfsg1-0.6ubuntu2 amd64 [installed,local]
+libdebconfclient0/now 0.251ubuntu1 amd64 [installed,local]
+libdevmapper1.02.1/now 2:1.02.167-1ubuntu1 amd64 [installed,local]
+liberror-perl/now 0.17029-1 all [installed,local]
+libexpat1/now 2.2.9-1ubuntu0.6 amd64 [installed,local]
+libext2fs2/now 1.45.5-2ubuntu1.1 amd64 [installed,local]
+libfdisk1/now 2.34-0.1ubuntu9.4 amd64 [installed,local]
+libffi7/now 3.3-4 amd64 [installed,local]
+libgcc-9-dev/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
+libgcc-s1/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libgcrypt20/now 1.8.5-5ubuntu1.1 amd64 [installed,local]
+libgdbm-compat4/now 1.18.1-5 amd64 [installed,local]
+libgdbm6/now 1.18.1-5 amd64 [installed,local]
+libgmp10/now 2:6.2.0+dfsg-4ubuntu0.1 amd64 [installed,local]
+libgnutls30/now 3.6.13-2ubuntu1.8 amd64 [installed,local]
+libgomp1/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libgpg-error0/now 1.37-1 amd64 [installed,local]
+libgssapi-krb5-2/now 1.17-6ubuntu4.4 amd64 [installed,local]
+libgssapi3-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
+libhcrypto4-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
+libheimbase1-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
+libheimntlm0-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
+libhogweed5/now 3.5.1+really3.5.1-2ubuntu0.2 amd64 [installed,local]
+libhx509-5-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
+libidn2-0/now 2.2.0-2 amd64 [installed,local]
+libip4tc2/now 1.8.4-3ubuntu2.1 amd64 [installed,local]
+libip6tc2/now 1.8.4-3ubuntu2.1 amd64 [installed,local]
+libisl22/now 0.22.1-1 amd64 [installed,local]
+libitm1/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libk5crypto3/now 1.17-6ubuntu4.4 amd64 [installed,local]
+libkeyutils1/now 1.6-6ubuntu1.1 amd64 [installed,local]
+libkrb5-26-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
+libkrb5-3/now 1.17-6ubuntu4.4 amd64 [installed,local]
+libkrb5support0/now 1.17-6ubuntu4.4 amd64 [installed,local]
+libksba8/now 1.3.5-2ubuntu0.20.04.2 amd64 [installed,local]
+libldap-2.4-2/now 2.4.49+dfsg-2ubuntu1.9 amd64 [installed,local]
+libldap-common/now 2.4.49+dfsg-2ubuntu1.9 all [installed,local]
+liblsan0/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+liblz4-1/now 1.9.2-2ubuntu0.20.04.1 amd64 [installed,local]
+liblzma5/now 5.2.4-1ubuntu1.1 amd64 [installed,local]
+libmnl0/now 1.0.4-2 amd64 [installed,local]
+libmount1/now 2.34-0.1ubuntu9.4 amd64 [installed,local]
+libmpc3/now 1.1.0-1 amd64 [installed,local]
+libmpdec2/now 2.4.2-3 amd64 [installed,local]
+libmpfr6/now 4.0.2-1 amd64 [installed,local]
+libncurses6/now 6.2-0ubuntu2.1 amd64 [installed,local]
+libncursesw6/now 6.2-0ubuntu2.1 amd64 [installed,local]
+libnetfilter-conntrack3/now 1.0.7-2 amd64 [installed,local]
+libnettle7/now 3.5.1+really3.5.1-2ubuntu0.2 amd64 [installed,local]
+libnfnetlink0/now 1.0.1-3build1 amd64 [installed,local]
+libnftnl11/now 1.1.5-1 amd64 [installed,local]
+libnghttp2-14/now 1.40.0-1ubuntu0.1 amd64 [installed,local]
+libnpth0/now 1.6-1 amd64 [installed,local]
+libp11-kit0/now 0.23.20-1ubuntu0.1 amd64 [installed,local]
+libpam-modules-bin/now 1.3.1-5ubuntu4.6 amd64 [installed,local]
+libpam-modules/now 1.3.1-5ubuntu4.6 amd64 [installed,local]
+libpam-runtime/now 1.3.1-5ubuntu4.6 all [installed,local]
+libpam0g/now 1.3.1-5ubuntu4.6 amd64 [installed,local]
+libpcre2-8-0/now 10.34-7ubuntu0.1 amd64 [installed,local]
+libpcre3/now 2:8.39-12ubuntu0.1 amd64 [installed,local]
+libperl5.30/now 5.30.0-9ubuntu0.4 amd64 [installed,local]
+libprocps8/now 2:3.3.16-1ubuntu2.3 amd64 [installed,local]
+libpsl5/now 0.21.0-1ubuntu1 amd64 [installed,local]
+libpython3-stdlib/now 3.8.2-0ubuntu2 amd64 [installed,local]
+libpython3.8-minimal/now 3.8.10-0ubuntu1~20.04.8 amd64 [installed,local]
+libpython3.8-stdlib/now 3.8.10-0ubuntu1~20.04.8 amd64 [installed,local]
+libquadmath0/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libreadline8/now 8.0-4 amd64 [installed,local]
+libroken18-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
+librtmp1/now 2.4+20151223.gitfa8646d.1-2build1 amd64 [installed,local]
+libsasl2-2/now 2.1.27+dfsg-2ubuntu0.1 amd64 [installed,local]
+libsasl2-modules-db/now 2.1.27+dfsg-2ubuntu0.1 amd64 [installed,local]
+libseccomp2/now 2.5.1-1ubuntu1~20.04.2 amd64 [installed,local]
+libselinux1/now 3.0-1build2 amd64 [installed,local]
+libsemanage-common/now 3.0-1build2 all [installed,local]
+libsemanage1/now 3.0-1build2 amd64 [installed,local]
+libsepol1/now 3.0-1ubuntu0.1 amd64 [installed,local]
+libsmartcols1/now 2.34-0.1ubuntu9.4 amd64 [installed,local]
+libsqlite3-0/now 3.31.1-4ubuntu0.5 amd64 [installed,local]
+libss2/now 1.45.5-2ubuntu1.1 amd64 [installed,local]
+libssh-4/now 0.9.3-2ubuntu2.3 amd64 [installed,local]
+libssl1.1/now 1.1.1f-1ubuntu2.20 amd64 [installed,local]
+libstdc++-9-dev/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
+libstdc++6/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libsystemd0/now 245.4-4ubuntu3.22 amd64 [installed,local]
+libtasn1-6/now 4.16.0-2 amd64 [installed,local]
+libtinfo6/now 6.2-0ubuntu2.1 amd64 [installed,local]
+libtsan0/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libubsan1/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libudev1/now 245.4-4ubuntu3.22 amd64 [installed,local]
+libunistring2/now 0.9.10-2 amd64 [installed,local]
+libuuid1/now 2.34-0.1ubuntu9.4 amd64 [installed,local]
+libwind0-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
+libxtables12/now 1.8.4-3ubuntu2.1 amd64 [installed,local]
+libzstd1/now 1.4.4+dfsg-3ubuntu0.1 amd64 [installed,local]
+linux-libc-dev/now 5.4.0-167.184 amd64 [installed,local]
+login/now 1:4.8.1-1ubuntu5.20.04.4 amd64 [installed,local]
+logsave/now 1.45.5-2ubuntu1.1 amd64 [installed,local]
+lsb-base/now 11.1.0ubuntu2 all [installed,local]
+make/now 4.2.1-1.2 amd64 [installed,local]
+mawk/now 1.3.4.20200120-2 amd64 [installed,local]
+mime-support/now 3.64ubuntu1 all [installed,local]
+mount/now 2.34-0.1ubuntu9.4 amd64 [installed,local]
+ncurses-base/now 6.2-0ubuntu2.1 all [installed,local]
+ncurses-bin/now 6.2-0ubuntu2.1 amd64 [installed,local]
+net-tools/now 1.60+git20180626.aebd88e-1ubuntu1 amd64 [installed,local]
+netbase/now 6.1 all [installed,local]
+nodejs/now 18.18.2-1nodesource1 amd64 [installed,local]
+openssl/now 1.1.1f-1ubuntu2.20 amd64 [installed,local]
+passwd/now 1:4.8.1-1ubuntu5.20.04.4 amd64 [installed,local]
+perl-base/now 5.30.0-9ubuntu0.4 amd64 [installed,local]
+perl-modules-5.30/now 5.30.0-9ubuntu0.4 all [installed,local]
+perl/now 5.30.0-9ubuntu0.4 amd64 [installed,local]
+pinentry-curses/now 1.1.0-3build1 amd64 [installed,local]
+procps/now 2:3.3.16-1ubuntu2.3 amd64 [installed,local]
+python3-minimal/now 3.8.2-0ubuntu2 amd64 [installed,local]
+python3.8-minimal/now 3.8.10-0ubuntu1~20.04.8 amd64 [installed,local]
+python3.8/now 3.8.10-0ubuntu1~20.04.8 amd64 [installed,local]
+python3/now 3.8.2-0ubuntu2 amd64 [installed,local]
+readline-common/now 8.0-4 all [installed,local]
+runc/now 1.1.7-0ubuntu1~20.04.1 amd64 [installed,local]
+sed/now 4.7-1 amd64 [installed,local]
+sensible-utils/now 0.0.12+nmu1 all [installed,local]
+sysvinit-utils/now 2.96-2.1ubuntu1 amd64 [installed,local]
+tar/now 1.30+dfsg-7ubuntu0.20.04.3 amd64 [installed,local]
+ubuntu-keyring/now 2020.02.11.4 all [installed,local]
+util-linux/now 2.34-0.1ubuntu9.4 amd64 [installed,local]
+zlib1g/now 1:1.2.11.dfsg-2ubuntu1.5 amd64 [installed,local]
+"
+`;
+
+exports[`Immutability Development packages Dotnet SDKs list 1`] = `
+"7.0.404 [/usr/share/dotnet/sdk]
+"
+`;
+
+exports[`Immutability Development packages Dotnet runtimes list 1`] = `
+"Microsoft.AspNetCore.App 7.0.14 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.NETCore.App 7.0.14 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+"
+`;
+
+exports[`Immutability Development packages NPM version 1`] = `
+"9.8.1
+"
+`;
+
+exports[`Immutability Development packages Node version 1`] = `
+"v18.18.2
+"
+`;
+
+exports[`Immutability Development packages opinionated-bash-scripts version 1`] = `
+"get_version () {
+    echo "Curent version: 0.2.0"
+    echo "Source code: https://github.com/UlisesGascon/opinionated-bash-scripts/releases/tag/0.2.0"
+}"
+`;
