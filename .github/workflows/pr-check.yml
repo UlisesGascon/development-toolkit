@@ -9,9 +9,21 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Install Node@20
+      uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3.6.0
+      with:
+        node-version: 20.9.0
+        registry-url: https://registry.npmjs.org
+
     - uses: hadolint/hadolint-action@v3.1.0
       with:
         dockerfile: Dockerfile
 
     - name: Build container image
       run: docker build -t ulisesgascon/development-toolkit:latest .
+
+    - name: Install Node.js dependencies
+      run: npm ci
+
+    - name: Run E2E Test
+      run: npm run test
