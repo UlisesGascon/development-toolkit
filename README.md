@@ -35,7 +35,7 @@ docker run -it ghcr.io/ulisesgascon/development-toolkit:latest bash
 Opinionated bash scripts are available in the folder: `/usr/share/opinionated-bash-scripts`, you can use them as:
 
 ```bash
-source /usr/share/opinionated-bash-scripts/scripts/fs.sh
-check_directory demo
+source /usr/share/opinionated-bash-scripts/scripts/version.sh
+get_version
 ```
 
