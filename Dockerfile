@@ -1,25 +1,12 @@
 FROM ubuntu:20.04
 
 # Arguments
-ARG BUILD_DATE
-ARG VCS_REF
-ARG BUILD_VERSION
 ARG DEBIAN_FRONTEND=noninteractive
 # https://github.com/dotnet/core/issues/2186#issuecomment-671105420
 ARG DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 
-# Metadata
+# Metadata (other are added by GitHub Actions)
 LABEL maintainer="ulises@linux.com"
-LABEL org.label-schema.schema-version="1.0"
-LABEL org.label-schema.name="ulisesgascon/development-toolkit"
-LABEL org.label-schema.description="Personal Docker image used for development"
-LABEL org.label-schema.url="https://github.com/UlisesGascon/development-toolkit"
-LABEL org.label-schema.vcs-url="https://github.com/UlisesGascon/development-toolkit"
-LABEL org.label-schema.vendor="Ulises Gascon"
-LABEL org.label-schema.docker.cmd="docker run -it ulisesgascon/development-toolkit:latest bash"
-LABEL org.label-schema.vcs-ref=$VCS_REF
-LABEL org.label-schema.version=$BUILD_VERSION
-LABEL org.label-schema.build-date=$BUILD_DATE
 
 # Install Core packages curl, git, net-tools, docker, git-lfs and nodejs
 RUN apt-get update && apt-get install -y --no-install-recommends curl=7.68.0-1ubuntu2.20 git=1:2.25.1-1ubuntu3.11 net-tools=1.60+git20180626.aebd88e-1ubuntu1 docker.io=24.0.5-0ubuntu1~20.04.1 ca-certificates=20230311ubuntu0.20.04.1 gnupg=2.2.19-3ubuntu2.2 libcurl4-openssl-dev=7.68.0-1ubuntu2.20 gcc=4:9.3.0-1ubuntu2 g++=4:9.3.0-1ubuntu2 make=4.2.1-1.2 \
