@@ -18,7 +18,7 @@ Personal Docker image used for development
 - g++ 4:9.3.0
 - make 4.2.1
 - fastjar 2:0.98
-- [UlisesGascon/opinionated-bash-scripts](https://github.com/UlisesGascon/opinionated-bash-scripts) 0.1.0
+- [UlisesGascon/opinionated-bash-scripts](https://github.com/UlisesGascon/opinionated-bash-scripts) 0.2.0
 
 ### Usage
 
