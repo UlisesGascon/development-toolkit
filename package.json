@@ -1,0 +1,11 @@
+{
+  "name": "development-toolkit",
+  "version": "0.2.0",
+  "description": "Personal Docker image used for development ☕️",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
