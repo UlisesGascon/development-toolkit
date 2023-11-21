@@ -17,6 +17,8 @@ Personal Docker image used for development
 - gcc 4:9.3.0
 - g++ 4:9.3.0
 - make 4.2.1
+- fastjar 2:0.98
+- [UlisesGascon/opinionated-bash-scripts](https://github.com/UlisesGascon/opinionated-bash-scripts) 0.1.0
 
 ### Usage
 
@@ -27,3 +29,13 @@ docker run -it ulisesgascon/development-toolkit:latest bash
 ```bash
 docker run -it ghcr.io/ulisesgascon/development-toolkit:latest bash
 ```
+
+### Notes
+
+Opinionated bash scripts are available in the folder: `/usr/share/opinionated-bash-scripts`, you can use them as:
+
+```bash
+source /usr/share/opinionated-bash-scripts/scripts/fs.sh
+check_directory demo
+```
+
