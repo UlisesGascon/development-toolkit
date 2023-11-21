@@ -1,4 +1,4 @@
-# dockerized-development-toolkit
+# development toolkit (Dockerized)
 
 Personal Docker image used for development
 
