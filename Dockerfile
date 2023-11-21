@@ -27,5 +27,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends git-lfs=3.4.0 n
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
+# Install Opinionated bash scripts
+RUN curl -L https://github.com/UlisesGascon/opinionated-bash-scripts/archive/refs/tags/0.1.0.tar.gz | tar zx \
+    && mkdir /usr/share/opinionated-bash-scripts \
+    && cd opinionated-bash-scripts* \
+    && chmod +x scripts/*.sh \
+    && mv * /usr/share/opinionated-bash-scripts \
+    && cd .. \
+    && rm -rf opinionated-bash-scripts*
+
 # Set the path to include .NET
 ENV PATH="$PATH:/usr/share/dotnet"
