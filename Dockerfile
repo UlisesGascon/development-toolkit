@@ -4,6 +4,7 @@ FROM ubuntu:20.04
 ARG DEBIAN_FRONTEND=noninteractive
 # https://github.com/dotnet/core/issues/2186#issuecomment-671105420
 ARG DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
+ARG NODE_MAJOR=18
 
 # Metadata (other are added by GitHub Actions)
 LABEL maintainer="ulises@linux.com"
@@ -16,11 +17,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends curl=7.68.0-1ub
 # Installation script for Git LFS, Node.js and .NET SDK
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash \
-    && curl -sL https://deb.nodesource.com/setup_18.x | bash - \
-    && curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel Current --install-dir /usr/share/dotnet
+    && curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel Current --install-dir /usr/share/dotnet \
+    && mkdir -p /etc/apt/keyrings \
+    && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg \
+    && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" > /etc/apt/sources.list.d/nodesource.list
 
 # Install Additional packages
-RUN apt-get update && apt-get install -y --no-install-recommends git-lfs=3.4.0 nodejs=18.17.1-deb-1nodesource1 \
+RUN apt-get update && apt-get install -y --no-install-recommends git-lfs=3.4.0 nodejs=18.18.2-1nodesource1 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
