@@ -39,6 +39,11 @@ describe('Immutability', () => {
             const output = executeCommand("docker --version");
             expect(output).toMatchSnapshot();
         })
+
+        it('Docker-compose version', () => {
+            const output = executeCommand("docker-compose --version");
+            expect(output).toMatchSnapshot();
+        })
     
         it('Curl version', () => {
             const output = executeCommand("curl --version");
