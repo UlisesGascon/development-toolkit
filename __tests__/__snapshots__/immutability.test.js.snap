@@ -14,7 +14,7 @@ exports[`Immutability Core Extended packages Docker version 1`] = `
 `;
 
 exports[`Immutability Core Extended packages Git LFS version 1`] = `
-"git-lfs/3.4.0 (GitHub; linux amd64; go 1.20.6)
+"git-lfs/2.9.2 (GitHub; linux amd64; go 1.13.5)
 "
 `;
 
@@ -129,7 +129,7 @@ gcc-10-base/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
 gcc-9-base/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
 gcc-9/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
 gcc/now 4:9.3.0-1ubuntu2 amd64 [installed,local]
-git-lfs/now 3.4.0 amd64 [installed,local]
+git-lfs/now 2.9.2-1 amd64 [installed,local]
 git-man/now 1:2.25.1-1ubuntu3.11 all [installed,local]
 git/now 1:2.25.1-1ubuntu3.11 amd64 [installed,local]
 gnupg-l10n/now 2.2.19-3ubuntu2.2 all [installed,local]
@@ -225,7 +225,7 @@ libnetfilter-conntrack3/now 1.0.7-2 amd64 [installed,local]
 libnettle7/now 3.5.1+really3.5.1-2ubuntu0.2 amd64 [installed,local]
 libnfnetlink0/now 1.0.1-3build1 amd64 [installed,local]
 libnftnl11/now 1.1.5-1 amd64 [installed,local]
-libnghttp2-14/now 1.40.0-1ubuntu0.1 amd64 [installed,local]
+libnghttp2-14/now 1.40.0-1ubuntu0.2 amd64 [installed,local]
 libnpth0/now 1.6-1 amd64 [installed,local]
 libp11-kit0/now 0.23.20-1ubuntu0.1 amd64 [installed,local]
 libpam-modules-bin/now 1.3.1-5ubuntu4.6 amd64 [installed,local]
