@@ -8,7 +8,7 @@ Personal Docker image used for development
 - .NET 7.0.14
 - NodeJS 18.17.1
 - Git 2.25.1 and Git LFS 2.9.2
-- Docker 24.0.5
+- Docker 24.0.5 and Docker Compose 2.23.3
 - Curl 7.68.0
 - net-tools 1.60
 - ca-certificates 20230311

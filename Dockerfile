@@ -29,6 +29,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends git-lfs=2.9.2-1
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
+# Install Docker-Compose
+RUN curl -L "https://github.com/docker/compose/releases/download/v2.23.3/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose \
+ && mv /usr/local/bin/docker-compose /usr/bin/docker-compose \
+ && chmod +x /usr/bin/docker-compose
+
 # Install Opinionated bash scripts
 WORKDIR /home
 RUN curl -L https://github.com/UlisesGascon/opinionated-bash-scripts/archive/refs/tags/0.3.0.tar.gz | tar zx \

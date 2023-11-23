@@ -13,6 +13,11 @@ exports[`Immutability Core Extended packages Docker version 1`] = `
 "
 `;
 
+exports[`Immutability Core Extended packages Docker-compose version 1`] = `
+"Docker Compose version v2.23.3
+"
+`;
+
 exports[`Immutability Core Extended packages Git LFS version 1`] = `
 "git-lfs/2.9.2 (GitHub; linux amd64; go 1.13.5)
 "
