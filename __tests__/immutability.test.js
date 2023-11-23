@@ -85,6 +85,10 @@ describe('Immutability', () => {
             expect(output).toMatchSnapshot();
         })
 
+        it('nano editor version', () => {
+            const output = executeCommand("nano --version");
+            expect(output).toMatchSnapshot();
+        })
     })
 
     describe('Development packages', () => {

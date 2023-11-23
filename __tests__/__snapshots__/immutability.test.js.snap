@@ -89,6 +89,15 @@ There is NO WARRANTY, to the extent permitted by law.
 "
 `;
 
+exports[`Immutability Core Extended packages nano editor version 1`] = `
+" GNU nano, version 4.8
+ (C) 1999-2011, 2013-2020 Free Software Foundation, Inc.
+ (C) 2014-2020 the contributors to nano
+ Email: nano@nano-editor.org	Web: https://nano-editor.org/
+ Compiled options: --disable-libmagic --enable-utf8
+"
+`;
+
 exports[`Immutability Core Extended packages net-tools: netstat version 1`] = `
 "net-tools 2.10-alpha
 Fred Baumgarten, Alan Cox, Bernd Eckenfels, Phil Blundell, Tuan Hoang, Brian Micek and others
@@ -282,6 +291,7 @@ make/now 4.2.1-1.2 amd64 [installed,local]
 mawk/now 1.3.4.20200120-2 amd64 [installed,local]
 mime-support/now 3.64ubuntu1 all [installed,local]
 mount/now 2.34-0.1ubuntu9.4 amd64 [installed,local]
+nano/now 4.8-1ubuntu1 amd64 [installed,local]
 ncurses-base/now 6.2-0ubuntu2.1 all [installed,local]
 ncurses-bin/now 6.2-0ubuntu2.1 amd64 [installed,local]
 net-tools/now 1.60+git20180626.aebd88e-1ubuntu1 amd64 [installed,local]
