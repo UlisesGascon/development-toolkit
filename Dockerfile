@@ -25,7 +25,7 @@ RUN curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel S
     && echo "deb-src [signed-by=/etc/apt/keyrings/github_git-lfs-archive-keyring.gpg] https://packagecloud.io/github/git-lfs/ubuntu focal main" > /etc/apt/sources.list.d/git_fls.list
 
 # Install Additional packages
-RUN apt-get update && apt-get install -y --no-install-recommends git-lfs=3.4.0 nodejs=18.18.2-1nodesource1 \
+RUN apt-get update && apt-get install -y --no-install-recommends git-lfs=2.9.2-1 nodejs=18.18.2-1nodesource1 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 

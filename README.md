@@ -7,7 +7,7 @@ Personal Docker image used for development
 - Ubuntu 20.04
 - .NET 7.0.14
 - NodeJS 18.17.1
-- Git 2.25.1 and Git LFS 3.4.0
+- Git 2.25.1 and Git LFS 2.9.2
 - Docker 24.0.5
 - Curl 7.68.0
 - net-tools 1.60
