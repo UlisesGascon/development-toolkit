@@ -107,6 +107,11 @@ HW:  +ETHER +ARC +SLIP +PPP +TUNNEL -TR +AX25 +NETROM +X25 +FR +ROSE +ASH +SIT +
 "
 `;
 
+exports[`Immutability Core Extended packages ping version 1`] = `
+"ping from iputils s20190709
+"
+`;
+
 exports[`Immutability Core Installed packages 1`] = `
 "Listing...
 adduser/now 3.118ubuntu2 all [installed,local]
@@ -161,6 +166,7 @@ gzip/now 1.10-0ubuntu4.1 amd64 [installed,local]
 hostname/now 3.23 amd64 [installed,local]
 init-system-helpers/now 1.57 all [installed,local]
 iptables/now 1.8.4-3ubuntu2.1 amd64 [installed,local]
+iputils-ping/now 3:20190709-3 amd64 [installed,local]
 libacl1/now 2.2.53-6 amd64 [installed,local]
 libapt-pkg6.0/now 2.0.9 amd64 [installed,local]
 libasan5/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
@@ -179,6 +185,8 @@ libc-dev-bin/now 2.31-0ubuntu9.12 amd64 [installed,local]
 libc6-dev/now 2.31-0ubuntu9.12 amd64 [installed,local]
 libc6/now 2.31-0ubuntu9.12 amd64 [installed,local]
 libcap-ng0/now 0.7.9-2.1build1 amd64 [installed,local]
+libcap2-bin/now 1:2.32-1ubuntu0.1 amd64 [installed,local]
+libcap2/now 1:2.32-1ubuntu0.1 amd64 [installed,local]
 libcc1-0/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
 libcom-err2/now 1.45.5-2ubuntu1.1 amd64 [installed,local]
 libcrypt-dev/now 1:4.4.10-10ubuntu4 amd64 [installed,local]

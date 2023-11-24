@@ -89,6 +89,11 @@ describe('Immutability', () => {
             const output = executeCommand("nano --version");
             expect(output).toMatchSnapshot();
         })
+
+        it('ping version', () => {
+            const output = executeCommand("ping -V");
+            expect(output).toMatchSnapshot();
+        })
     })
 
     describe('Development packages', () => {
