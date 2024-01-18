@@ -116,6 +116,11 @@ describe('Immutability', () => {
             const output = executeCommand("dotnet --list-sdks");
             expect(output).toMatchSnapshot();
         })
+
+        it('Jq version', () => {
+            const output = executeCommand("jq --version");
+            expect(output).toMatchSnapshot();
+        })
     
         it('opinionated-bash-scripts version', () => {
             const output = executeCommand("cat /usr/share/opinionated-bash-scripts/scripts/version.sh");
