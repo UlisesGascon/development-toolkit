@@ -36,7 +36,7 @@ RUN curl -L "https://github.com/docker/compose/releases/download/v2.23.3/docker-
 
 # Install Opinionated bash scripts
 WORKDIR /home
-RUN curl -L https://github.com/UlisesGascon/opinionated-bash-scripts/archive/refs/tags/0.5.0.tar.gz | tar zx \
+RUN curl -L https://github.com/UlisesGascon/opinionated-bash-scripts/archive/refs/tags/0.6.1.tar.gz | tar zx \
     && mkdir /usr/share/opinionated-bash-scripts \
     && chmod +x opinionated-bash-scripts*/scripts/*.sh \
     && mv opinionated-bash-scripts*/* /usr/share/opinionated-bash-scripts \
