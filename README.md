@@ -21,6 +21,7 @@ Personal Docker image used for development
 - nano 4.8
 - iputils-ping 3:20190709-3
 - apt-transport-https 2.0.10
+- jq 1.6
 - [UlisesGascon/opinionated-bash-scripts](https://github.com/UlisesGascon/opinionated-bash-scripts) 0.6.1
 
 ### Usage

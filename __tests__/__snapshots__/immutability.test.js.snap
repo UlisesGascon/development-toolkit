@@ -167,6 +167,7 @@ hostname/now 3.23 amd64 [installed,local]
 init-system-helpers/now 1.57 all [installed,local]
 iptables/now 1.8.4-3ubuntu2.1 amd64 [installed,local]
 iputils-ping/now 3:20190709-3 amd64 [installed,local]
+jq/now 1.6-1ubuntu0.20.04.1 amd64 [installed,local]
 libacl1/now 2.2.53-6 amd64 [installed,local]
 libapt-pkg6.0/now 2.0.10 amd64 [installed,local]
 libasan5/now 9.4.0-1ubuntu1~20.04.2 amd64 [installed,local]
@@ -225,6 +226,7 @@ libip4tc2/now 1.8.4-3ubuntu2.1 amd64 [installed,local]
 libip6tc2/now 1.8.4-3ubuntu2.1 amd64 [installed,local]
 libisl22/now 0.22.1-1 amd64 [installed,local]
 libitm1/now 10.5.0-1ubuntu1~20.04 amd64 [installed,local]
+libjq1/now 1.6-1ubuntu0.20.04.1 amd64 [installed,local]
 libk5crypto3/now 1.17-6ubuntu4.4 amd64 [installed,local]
 libkeyutils1/now 1.6-6ubuntu1.1 amd64 [installed,local]
 libkrb5-26-heimdal/now 7.7.0+dfsg-1ubuntu1.4 amd64 [installed,local]
@@ -249,6 +251,7 @@ libnfnetlink0/now 1.0.1-3build1 amd64 [installed,local]
 libnftnl11/now 1.1.5-1 amd64 [installed,local]
 libnghttp2-14/now 1.40.0-1ubuntu0.2 amd64 [installed,local]
 libnpth0/now 1.6-1 amd64 [installed,local]
+libonig5/now 6.9.4-1 amd64 [installed,local]
 libp11-kit0/now 0.23.20-1ubuntu0.1 amd64 [installed,local]
 libpam-modules-bin/now 1.3.1-5ubuntu4.6 amd64 [installed,local]
 libpam-modules/now 1.3.1-5ubuntu4.6 amd64 [installed,local]
@@ -336,6 +339,11 @@ exports[`Immutability Development packages Dotnet SDKs list 1`] = `
 exports[`Immutability Development packages Dotnet runtimes list 1`] = `
 "Microsoft.AspNetCore.App 7.0.15 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]
 Microsoft.NETCore.App 7.0.15 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+"
+`;
+
+exports[`Immutability Development packages Jq version 1`] = `
+"jq-1.6
 "
 `;
 
