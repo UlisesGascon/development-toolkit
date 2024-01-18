@@ -10,7 +10,7 @@ ARG NODE_MAJOR=18
 LABEL maintainer="ulises@linux.com"
 
 # Install Core packages
-RUN apt-get update && apt-get install -y --no-install-recommends curl=7.68.0-1ubuntu2.20 git=1:2.25.1-1ubuntu3.11 net-tools=1.60+git20180626.aebd88e-1ubuntu1 docker.io=24.0.5-0ubuntu1~20.04.1 ca-certificates=20230311ubuntu0.20.04.1 gnupg=2.2.19-3ubuntu2.2 libcurl4-openssl-dev=7.68.0-1ubuntu2.20 gcc=4:9.3.0-1ubuntu2 g++=4:9.3.0-1ubuntu2 make=4.2.1-1.2 fastjar=2:0.98-6build1 apt-transport-https=2.0.10 nano=4.8-1ubuntu1 iputils-ping=3:20190709-3 \
+RUN apt-get update && apt-get install -y --no-install-recommends curl=7.68.0-1ubuntu2.21 git=1:2.25.1-1ubuntu3.11 net-tools=1.60+git20180626.aebd88e-1ubuntu1 docker.io=24.0.5-0ubuntu1~20.04.1 ca-certificates=20230311ubuntu0.20.04.1 gnupg=2.2.19-3ubuntu2.2 libcurl4-openssl-dev=7.68.0-1ubuntu2.21 gcc=4:9.3.0-1ubuntu2 g++=4:9.3.0-1ubuntu2 make=4.2.1-1.2 fastjar=2:0.98-6build1 apt-transport-https=2.0.10 nano=4.8-1ubuntu1 iputils-ping=3:20190709-3 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 

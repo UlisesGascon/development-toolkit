@@ -5,7 +5,7 @@ Personal Docker image used for development
 ### Stack
 
 - Ubuntu 20.04
-- .NET 7.0.14
+- .NET 7.0.15
 - NodeJS 18.17.1
 - Git 2.25.1 and Git LFS 2.9.2
 - Docker 24.0.5 and Docker Compose 2.23.3
