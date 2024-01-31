@@ -1,6 +1,6 @@
 {
   "name": "development-toolkit",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Personal Docker image used for development ☕️",
   "main": "index.js",
   "private": true,
